@@ -4,7 +4,7 @@ const app = express();
 require('./addNumber')
 require('./countWord')
 require("dotenv").config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 // 1. task
 
